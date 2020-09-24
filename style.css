@@ -13,6 +13,8 @@ body{
 
 body {
     margin: 0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .wrapper {
@@ -25,7 +27,8 @@ body {
 }
 
 #info {
-    background-color: #6480E3;
+    /* background-color: #6480E3; */
+    border-right: 0.5px solid black;
     width: 200px;
     height: 100%;
     padding-left: 25px;
@@ -50,17 +53,28 @@ body {
 }
 
 .inner-col {
-    margin: -17px 0;
-    padding-bottom: 50px;
+    padding: 17px 0 50px 20px;
 }
 
-#exp{
-    background-color: #E3886F;
+/* #exp{
+    background-color: #F2CC85;
 }
 
+#tool{
+    background-color: #591902;
+}
+
+#edu{
+    background-color: #735B4D;
+}
+#award{
+    background-color: #BF6D4E;
+}
+#skill{
+    background-color: #4CDFED;
+} */
 h1 {
     font-size: 25px;
-    margin-top: 12px;
 }
 
 h2 {
