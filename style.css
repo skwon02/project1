@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    max-width: 1200px;
     height: 800px;
     /* border: 1px solid red; */
     margin: auto;
@@ -27,7 +27,13 @@ body {
     /* display: inline-block; */
     position: relative;
 }
-.column{
+
+#cotent-wrap {
+    width: 100%;
+    padding-left: 200px;
+}
+
+.column {
     width: 50%;
     /* margin: 0; */
     /* display : inline-block; */
@@ -40,11 +46,6 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-}
-
-#cotent-wrap {
-    width: 1000px;
-    margin-left: 200px;
 }
 
 h1 {
@@ -65,10 +66,12 @@ li {
     font-weight: 400;
     line-height: 1.7;
 }
+
 li {
     list-style-type: none;
 
 }
+
 a {
     color: black;
     text-decoration: none;
