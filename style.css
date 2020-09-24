@@ -10,10 +10,10 @@ body {
 
 .wrapper {
     max-width: 1200px;
-    height: 800px;
+    max-height: 800px;
     /* border: 1px solid red; */
     margin: auto;
-    /* overflow: auto; */
+    overflow: auto;
     position: relative;
 }
 
