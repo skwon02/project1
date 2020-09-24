@@ -11,14 +11,15 @@ body {
 .wrapper {
     width: 1200px;
     height: 800px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     overflow: auto;
+    position: relative;
 }
 
 .column,
 .inner-col {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #info,
@@ -36,6 +37,8 @@ body {
     width: 200px;
     height: 800px;
     position: absolute;
+    left: 0;
+    top: 0;
 }
 
 #cotent-wrap {
