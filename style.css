@@ -17,20 +17,10 @@ body {
     position: relative;
 }
 
-.column,
-.inner-col {
-    /* border: 1px solid red; */
-}
-
-#info,
-#content-wrap {
-    /* display: inline-block; */
-    position: relative;
-}
-
 #cotent-wrap {
     width: 100%;
     padding-left: 200px;
+    position: relative;
 }
 
 .column {
