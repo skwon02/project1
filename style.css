@@ -12,12 +12,12 @@ body {
     width: 1200px;
     height: 800px;
     border: 1px solid red;
-    /* overflow: auto; */
     margin: auto;
+    overflow: auto;
 }
 
 .column,
-.inner-column {
+.inner-col {
     border: 1px solid red;
 }
 
@@ -25,11 +25,17 @@ body {
 #content-wrap {
     /* display: inline-block; */
     float: left;
+    position: relative;
+}
+.column{
+    width: 50%;
+    float: left;
 }
 
 #info {
     width: 200px;
     height: 800px;
+    position: absolute;
 }
 
 #cotent-wrap {
@@ -37,9 +43,6 @@ body {
     margin-left: 200px;
 }
 
-#exp{
-    width: 50%;
-}
 
 h1 {
     font-size: 25px;
