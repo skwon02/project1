@@ -32,7 +32,7 @@ body {
 
 #info {
     width: 200px;
-    height: 800px;
+    padding: 10px;
     position: absolute;
     left: 0;
     top: 0;
@@ -50,9 +50,12 @@ h2 {
 h3 {
     font-size: 16px;
 }
-
+h4 {
+    color: gray;
+}
 p,
 li {
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.7;
 }
