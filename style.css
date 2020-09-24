@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
     font-family: 'Epilogue', sans-serif;
+    
 }
 .wrapper{
     width: 1200px;
+    height: 800px;
+    border: 1px solid red;
+    overflow: auto;
     margin: auto;
 }
 
@@ -18,6 +22,10 @@ h2 {
 
 h3 {
     font-size: 16px;
+}
+
+p, li{
+    font-weight: 400;
 }
 
 a{
