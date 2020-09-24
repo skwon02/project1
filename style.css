@@ -37,6 +37,10 @@ body {
     margin-left: 200px;
 }
 
+#exp{
+    width: 50%;
+}
+
 h1 {
     font-size: 25px;
     text-align: left;
