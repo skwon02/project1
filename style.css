@@ -44,12 +44,13 @@ body {
 .column {
     width: 50%;
     float: left;
-    padding-left: 15px;
+    /* padding-left: 15px; */
 
 
 }
 
 .inner-col {
+    margin: -17px 0;
     padding-bottom: 50px;
 }
 
