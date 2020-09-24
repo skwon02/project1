@@ -13,8 +13,8 @@ body{
 
 body {
     margin: 0;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(116,255,0);
+    background: linear-gradient(0deg, rgba(116,255,0,1) 0%, rgba(255,255,255,1) 100%) fixed;
 }
 
 .wrapper {
@@ -47,32 +47,18 @@ body {
 .column {
     width: 50%;
     float: left;
-    /* padding-left: 15px; */
-
-
+    border-right: 1px solid black;
 }
 
 .inner-col {
-    padding: 17px 0 50px 20px;
-}
-
-/* #exp{
-    background-color: #F2CC85;
+    padding: 6px 0 50px 20px;
 }
 
 #tool{
-    background-color: #591902;
+    padding-bottom: 30px;
+}
 }
 
-#edu{
-    background-color: #735B4D;
-}
-#award{
-    background-color: #BF6D4E;
-}
-#skill{
-    background-color: #4CDFED;
-} */
 h1 {
     font-size: 25px;
 }
