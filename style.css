@@ -12,7 +12,7 @@ body {
     width: 1200px;
     height: 800px;
     border: 1px solid red;
-    overflow: auto;
+    /* overflow: auto; */
     margin: auto;
 }
 
@@ -20,7 +20,12 @@ body {
 .inner-column {
     border: 1px solid red;
 }
-
+#info{
+    width: 200px;
+}
+#cotent-wrap{
+width: 1000px;
+}
 h1 {
     font-size: 25px;
     text-align: left;
