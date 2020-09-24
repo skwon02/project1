@@ -48,20 +48,20 @@ body {
     width: 50%;
     float: left;
 }
-#et{
-    border-right: 1px solid black;
+
+#eas{
+    border-left: 1px solid black;
 }
 
 .inner-col {
     padding: 6px 0 50px 20px;
 }
 
-#tool{
-    padding-bottom: 137px;
-}
-
 h1 {
     font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 3px;
+    letter-spacing: 1px;
 }
 
 h2 {
