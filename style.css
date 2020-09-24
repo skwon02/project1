@@ -54,9 +54,12 @@ body {
 }
 
 .inner-col {
-    padding: 6px 0 50px 20px;
+    padding: 6px 35px 40px 20px;
+    border-bottom: 1px solid black;
 }
-
+.inner-col:last-child{
+    border-bottom: none;
+}
 h1 {
     font-size: 25px;
     text-transform: uppercase;
@@ -93,8 +96,7 @@ li {
 }
 
 p {
-    padding-left: 30px;
-    padding-right: 35px;
+    padding-left: 30px; 
     margin-top: 7px;
 }
 
