@@ -25,12 +25,12 @@ body {
 #info,
 #content-wrap {
     /* display: inline-block; */
-    float: left;
     position: relative;
 }
 .column{
-    width: 50%;
-    float: left;
+    width: 498px;
+    /* margin: 0; */
+    display : inline-block;
 }
 
 #info {
@@ -63,6 +63,7 @@ h3 {
 p,
 li {
     font-weight: 400;
+    line-height: ;
 }
 
 a {
