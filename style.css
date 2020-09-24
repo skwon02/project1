@@ -29,9 +29,12 @@ body {
     /* display : inline-block; */
     float: left;
 }
-
+.inner-col{
+    margin-bottom: 50px;
+}
 #info {
     width: 200px;
+    padding-left: 15px;
     position: absolute;
     left: 0;
     top: 0;
@@ -39,11 +42,13 @@ body {
 
 h1 {
     font-size: 25px;
-    text-align: left;
 }
 
 h2 {
     font-size: 20px;
+    padding-bottom: 9px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 h3 {
