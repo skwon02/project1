@@ -17,6 +17,15 @@ body {
     position: relative;
 }
 
+#info {
+    width: 200px;
+    padding-left: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
 #cotent-wrap {
     width: 100%;
     padding-left: 200px;
@@ -28,27 +37,25 @@ body {
     /* margin: 0; */
     /* display : inline-block; */
     float: left;
+    padding-left: 15px;
+    border-right: 1px solid black;
+
 }
 
 .inner-col {
     margin-bottom: 50px;
+    border-rb: 1px solid black;
 }
 
-#info {
-    width: 200px;
-    padding-left: 15px;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
 
 h1 {
     font-size: 25px;
+    margin-top: 12px;
 }
 
 h2 {
     font-size: 20px;
-    padding-bottom: 9px;
+    padding-bottom: 6px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
