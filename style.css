@@ -20,12 +20,23 @@ body {
 .inner-column {
     border: 1px solid red;
 }
-#info{
+
+#info,
+#content-wrap {
+    /* display: inline-block; */
+    float: left;
+}
+
+#info {
     width: 200px;
+    height: 800px;
 }
-#cotent-wrap{
-width: 1000px;
+
+#cotent-wrap {
+    width: 1000px;
+    margin-left: 200px;
 }
+
 h1 {
     font-size: 25px;
     text-align: left;
