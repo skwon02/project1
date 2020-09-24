@@ -13,7 +13,7 @@ body {
     height: 800px;
     /* border: 1px solid red; */
     margin: auto;
-    overflow: auto;
+    /* overflow: auto; */
     position: relative;
 }
 
@@ -28,9 +28,10 @@ body {
     position: relative;
 }
 .column{
-    width: 498px;
+    width: 50%;
     /* margin: 0; */
-    display : inline-block;
+    /* display : inline-block; */
+    float: left;
 }
 
 #info {
@@ -45,7 +46,6 @@ body {
     width: 1000px;
     margin-left: 200px;
 }
-
 
 h1 {
     font-size: 25px;
@@ -65,7 +65,10 @@ li {
     font-weight: 400;
     line-height: 1.7;
 }
+li {
+    list-style-type: none;
 
+}
 a {
     color: black;
     text-decoration: none;
