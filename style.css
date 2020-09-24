@@ -4,6 +4,11 @@
 
 }
 
+html,
+body{
+    overflow: hidden;
+}
+
 body {
     margin: 0;
 }
@@ -23,7 +28,6 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-
 }
 
 #cotent-wrap {
@@ -34,17 +38,14 @@ body {
 
 .column {
     width: 50%;
-    /* margin: 0; */
-    /* display : inline-block; */
     float: left;
     padding-left: 15px;
-    border-right: 1px solid black;
+
 
 }
 
 .inner-col {
     margin-bottom: 50px;
-    border-rb: 1px solid black;
 }
 
 
